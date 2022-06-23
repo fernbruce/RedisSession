@@ -7,10 +7,10 @@ namespace fernbruce\RedisSession;
 /**
  * Class session
  */
-class session
+class Session
 {
     /**
-     * @var Redis
+     * @var \Redis
      */
     private $storage;
 
@@ -108,16 +108,3 @@ class session
         return true;
     }
 }
-
-
-$redis = new Redis();
-$redis->connect('127.0.0.1', '6379');
-$session = new session($redis);
-//@session_start();
-
-$_SESSION['age'] = 11;
-$_SESSION['name'] = 'jack';
-$_SESSION['edu'] = '财经学院';
-$_SESSION['hobby'] = '唱歌';
-$_SESSION['parttime'] = '摄影';
-var_dump($_SESSION);;
