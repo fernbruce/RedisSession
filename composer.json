@@ -1,10 +1,10 @@
 {
-    "name": "administrator/redis-session",
+    "name": "fernbruce/redis-session",
     "description": "redis-session",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Administrator\\RedisSession\\": "src/"
+            "fernbruce\\RedisSession\\": "src/"
         }
     },
     "require": {}

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Administrator\RedisSession;
+namespace fernbruce\RedisSession;
 
 
 /**
